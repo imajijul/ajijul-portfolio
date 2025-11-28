@@ -13,7 +13,7 @@ const Experience = () => {
                         return(
                             <div key={i} className="py-3">
                                <div className="max-sm:flex-col sm:flex justify-between items-center">
-                                    <h1 className="text-xl sm:text-2xl text-justify font-semibold">{item.title}</h1>
+                                    <h1 className="text-xl sm:text-2xl font-semibold">{item.title}</h1>
                                     <p className="text-end sm:text-start">{`${item.start} - ${item.end}`}</p>
                                </div>
                                <p className="py-1 text-muted-foreground">{item.company}</p>
